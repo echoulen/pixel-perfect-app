@@ -1,11 +1,14 @@
-import type { GatsbyConfig } from "gatsby"
+import type {GatsbyConfig} from 'gatsby';
 
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `pixel-perfect-app`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
-}
+  plugins: [
+    `gatsby-plugin-material-ui`,
+    `gatsby-plugin-eslint`,
+  ],
+};
 
-export default config
+export default config;
