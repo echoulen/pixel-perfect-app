@@ -1,4 +1,4 @@
-import {Box, Button} from '@mui/material';
+import { Box, Button, TextField } from '@mui/material';
 import {Meta, Story} from '@storybook/react';
 import React from 'react';
 
@@ -31,8 +31,13 @@ const Template: Story = (props) =>
         Button
       </Button>
     </Box>
+    <Box
+      p={5}
+    >
+      <TextField color="primary" variant="outlined" fullWidth={true} />
+    </Box>
   </div>;
 
-export const Default = Template.bind({});
-Default.args = {};
-Default.parameters = {};
+export const Overall = Template.bind({});
+Overall.args = {};
+Overall.parameters = {};
