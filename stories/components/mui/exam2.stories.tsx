@@ -10,22 +10,22 @@ export default {
 const Template: Story = (props) =>
   <div>
     <Box
-      m={5}
-      width={335}
+      p={5}
+      width={415}
     >
       <Button fullWidth={true} {...props}>
         Button
       </Button>
     </Box>
     <Box
-      m={5}
+      p={5}
       width={200}>
       <Button variant="outlined" {...props}>
         Button
       </Button>
     </Box>
     <Box
-      m={5}
+      p={5}
       width={200}>
       <Button variant="contained" {...props}>
         Button

@@ -1,7 +1,7 @@
 import {ThemeProvider as EmotionThemeProvider} from "emotion-theming"
 import React from "react"
 import "../src/css/index.css"
-import {exam2Theme} from "../src/core/theme";
+import {exam2Theme} from "../src/mui/theme";
 import '@fontsource/ubuntu';
 import '@fontsource/open-sans';
 

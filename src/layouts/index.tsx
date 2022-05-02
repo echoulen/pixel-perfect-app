@@ -1,6 +1,6 @@
 import {ThemeProvider} from '@mui/material';
 import React from 'react';
-import {exam2Theme} from '../core/theme';
+import {exam2Theme} from '../mui/theme';
 
 const TopLayout: React.FunctionComponent = ({children}) => {
   return (
