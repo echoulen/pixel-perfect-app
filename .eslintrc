@@ -9,9 +9,6 @@
     "node": true // defines things like process.env when generating through node
   },
   "extends": [
-    "eslint:recommended", // use recommended configs
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
     "google"
   ],
   "rules": {}

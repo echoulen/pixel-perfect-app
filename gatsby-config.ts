@@ -7,6 +7,8 @@ const config: GatsbyConfig = {
   },
   plugins: [
     `gatsby-plugin-material-ui`,
+    `gatsby-theme-material-ui`,
+    `gatsby-plugin-layout`,
     `gatsby-plugin-eslint`,
   ],
 };
