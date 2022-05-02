@@ -1,6 +1,7 @@
-import { Box, Button, TextField } from '@mui/material';
+import {Box, Button, TextField} from '@mui/material';
 import {Meta, Story} from '@storybook/react';
 import React from 'react';
+import {AppSlider} from '../../../src/components/widgets/AppSlider';
 
 export default {
   title: 'components/mui/Exam2',
@@ -31,10 +32,11 @@ const Template: Story = (props) =>
         Button
       </Button>
     </Box>
-    <Box
-      p={5}
-    >
+    <Box p={5}>
       <TextField color="primary" variant="outlined" fullWidth={true} />
+    </Box>
+    <Box p={5}>
+      <AppSlider valueLabelDisplay="off" />
     </Box>
   </div>;
 
