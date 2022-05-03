@@ -16,3 +16,7 @@
 *::after {
     box-sizing: border-box;
 }
+
+.test span.foo:nth-last-of-type(1) {
+    color: red;
+}

@@ -36,7 +36,7 @@ const Template: Story = (props) =>
       <TextField color="primary" variant="outlined" fullWidth={true} />
     </Box>
     <Box p={5}>
-      <AppSlider valueLabelDisplay="off" />
+      <AppSlider onChange={console.log} label={'50'} />
     </Box>
   </div>;
 
