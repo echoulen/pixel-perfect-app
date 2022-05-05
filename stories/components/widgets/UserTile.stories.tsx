@@ -12,7 +12,12 @@ export default {
 } as Meta;
 
 const Template: Story<UserTileProps> =
-  () => <UserTile imageSrc="images/thumb-1.png" isFollowing={true} />;
+  (args) => (
+    <UserTile imageSrc={args.imageSrc} isFollowing={args.isFollowing} />
+  );
 
 export const Default = Template.bind({});
-Default.args = {};
+Default.args = {
+  imageSrc: 'images/thumb-1.png',
+  isFollowing: true,
+};
