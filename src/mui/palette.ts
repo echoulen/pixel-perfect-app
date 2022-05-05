@@ -10,4 +10,7 @@ export const palette: PaletteOptions = {
   background: {
     default: '#121212',
   },
+  text: {
+    primary: '#FFFFFF',
+  },
 };

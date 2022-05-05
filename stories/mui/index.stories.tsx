@@ -1,10 +1,10 @@
 import {Box, Button, TextField} from '@mui/material';
 import {Meta, Story} from '@storybook/react';
 import React from 'react';
-import {AppSlider} from '../../../src/components/widgets/AppSlider';
+import {AppSlider} from '../../src/components/widgets/AppSlider';
 
 export default {
-  title: 'components/mui/Exam2',
+  title: 'material ui/override',
   component: Button,
 } as Meta;
 
